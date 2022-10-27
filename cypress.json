@@ -1,0 +1,17 @@
+{
+    "baseUrl": "http://localhost:4200",
+    "apiUrl": "https://swapi.dev/api/",
+    "ignoreTestFiles": "**/*.steps.ts",
+    "defaultCommandTimeout": 8000,
+    "screenshots": true,
+    "videos": true,
+    "reporter": "cypress-mochawesome-reporter",
+    "reporterOptions": {
+      "reportDir": "cypress/reports",
+      "charts": true,
+      "reportPageTitle": "FedEx Test Assignment",
+      "embeddedScreenshots": true,
+      "inlineAssets": true
+    }
+  }
+  
